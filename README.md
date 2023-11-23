@@ -1,2 +1,2 @@
 # Shape-factory
-Click [here] ( ) to check my shape-factory
+Click [here] ( https://codebyishika.github.io/shape-factory/ ) to check my shape-factory
