@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <title>Shape factory</title>
+        <link
+        rel="stylesheet"
+         href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300;6..12,400;6..12,500;6..12,600&display=swap"
+    />
+        <link rel="stylesheet" href="./assets/style/index.css" media="all">
+        <script src="./assets/script/index.js" type="module"></script>
+     </head> 
+     <body>
+        <div class="container">
+            <main>
+                <h1>Shape Factory</h1>
+                <form>
+                    <select name="shape" class="shapes-selection">
+                        <option value="circle">Circle</option>
+                        <option value="square">Square</option>
+                    </select>
+                    <select name="color" class="color-selection">
+                        <option value="09f">Blue</option>
+                        <option value="9f0">Green</option>
+                        <option value="f90">Orange</option>
+                        <option value="f09">Pink</option>
+                        <option value="90f">Purple</option>
+                    </select>
+                    <input type="button" class="button" value="Create">
+                </form>
+                <section class="shapes-factory"></section>
+                <div class="message"></div>
+            </main>
+            
+        </div>
+     </body>
+</html>
